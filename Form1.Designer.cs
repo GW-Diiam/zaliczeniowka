@@ -130,9 +130,9 @@ namespace zaliczeniowka
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(514, 80);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(102, 17);
+            this.label6.Size = new System.Drawing.Size(68, 17);
             this.label6.TabIndex = 10;
-            this.label6.Text = "lista prezentow";
+            this.label6.Text = "lista ocen";
             // 
             // textBox3
             // 

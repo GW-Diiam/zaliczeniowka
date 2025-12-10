@@ -10,18 +10,18 @@ namespace zaliczeniowka
     {
         public string Imie { get; set; }
         public string Nazwa { get; set; }
-        public decimal Cena { get; set; }
+        public decimal Ocena { get; set; }
 
-        public Class1(string imie, string nazwa, decimal cena)
+        public Class1(string imie, string nazwa, decimal ocena)
         {
             Imie = imie;
             Nazwa = nazwa;
-            Cena = cena;
+            Ocena = ocena;
         }
 
         public override string ToString()
         {
-            return $"{Imie} - {Nazwa} - {Cena} zł";
+            return $"{Imie} - {Nazwa} - {Ocena}";
         }
     }
 }

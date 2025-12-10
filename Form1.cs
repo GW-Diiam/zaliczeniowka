@@ -12,7 +12,7 @@ namespace zaliczeniowka
 {
     public partial class Form1 : Form
     {
-        private List<Class1> prezenty = new List<Class1>();
+        private List<Class1> oceny = new List<Class1>();
 
         public Form1()
         {
@@ -22,13 +22,13 @@ namespace zaliczeniowka
         {
             listBox1.Items.Clear();
 
-            foreach (var p in prezenty)
+            foreach (var p in oceny)
             {
                 listBox1.Items.Add(p.ToString());
             }
 
-            label1.Text = "Ilość: " + prezenty.Count;
-            label2.Text = "Łączny koszt: " + prezenty.Sum(p => p.Cena) + " zł";
+            label1.Text = "Ilość ocen: " + oceny.Count;
+            label2.Text = "średnia ocen: " + oceny.Average(p => p.Ocena);
         }
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -57,10 +57,10 @@ namespace zaliczeniowka
 
             if (!decimal.TryParse(textBox3.Text, out decimal cena))
             {
-                MessageBox.Show("Podaj poprawną cenę.");
+                MessageBox.Show("Podaj poprawną ocenę.");
                 return;
             }
-            prezenty.Add(new Class1(textBox1.Text, textBox2.Text, cena));
+            oceny.Add(new Class1(textBox1.Text, textBox2.Text, cena));
             OdświeżWidok();
 
         }
