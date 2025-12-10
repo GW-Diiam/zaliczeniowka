@@ -1,0 +1,10 @@
+C:\Users\Student\Desktop\WG_inf_25w\zaliczeniowka\bin\Debug\zaliczeniowka.exe.config
+C:\Users\Student\Desktop\WG_inf_25w\zaliczeniowka\bin\Debug\zaliczeniowka.exe
+C:\Users\Student\Desktop\WG_inf_25w\zaliczeniowka\bin\Debug\zaliczeniowka.pdb
+C:\Users\Student\Desktop\WG_inf_25w\zaliczeniowka\obj\Debug\zaliczeniowka.csproj.AssemblyReference.cache
+C:\Users\Student\Desktop\WG_inf_25w\zaliczeniowka\obj\Debug\zaliczeniowka.Form1.resources
+C:\Users\Student\Desktop\WG_inf_25w\zaliczeniowka\obj\Debug\zaliczeniowka.Properties.Resources.resources
+C:\Users\Student\Desktop\WG_inf_25w\zaliczeniowka\obj\Debug\zaliczeniowka.csproj.GenerateResource.cache
+C:\Users\Student\Desktop\WG_inf_25w\zaliczeniowka\obj\Debug\zaliczeniowka.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\WG_inf_25w\zaliczeniowka\obj\Debug\zaliczeniowka.exe
+C:\Users\Student\Desktop\WG_inf_25w\zaliczeniowka\obj\Debug\zaliczeniowka.pdb
